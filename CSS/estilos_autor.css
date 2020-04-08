@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bloque
+{
+	margin-top:5%;
+	width:100%;
+	height: 50%;
+	
+}
+
+.integranteh
+{
+	
+	width:100%;
+	height: 100%;
+	float:left;
+}
+.integrante
+{
+	margin-top: 40%;
+	width:100%;
+	height: 100%;
+	float:left;
+}
+.foto
+{	left:0%;
+	position:absolute;
+	width:40%;
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+.foto img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.info
+{	
+	left:50%;
+	position:absolute;
+	width:40%;
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.info .negrilla
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.info .texto
+{
+	font-size: 1.3em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    left: 30%;
+	position: absolute;
+}
