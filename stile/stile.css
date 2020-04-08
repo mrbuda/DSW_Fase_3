@@ -1,0 +1,26 @@
+body{
+    background-color: yellowgreen;
+    color: white
+}
+
+nav, header, .articulos, footer, aside{
+    max-width: 90%;
+    margin: auto;
+}
+
+nav{
+    background-color: brown;
+}
+header{
+    background-color: darkcyan;
+}
+
+.articulos{
+    background-color: green;
+}
+footer {
+    background-color: tomato;
+}
+aside {
+    background-color: yellow;
+}
