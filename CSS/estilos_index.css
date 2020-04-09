@@ -1,18 +1,11 @@
 nav, .contenedor, .inicio, footer,aside, header {
-    max-width: 90%;
+    max-width: 60%;
     margin: auto;
 }
+ 
 
-nav{
-    background-color: darkgoldenrod;
-    
-}
 body{background-image: url(../IMG/lineas.jpg);}
 
-.contenedor{
-   
-
-}
 .inicio{
 
     
@@ -20,18 +13,17 @@ body{background-image: url(../IMG/lineas.jpg);}
     max-width: 65%;
 }
 
-
 .centro{
     display: block;
     margin: auto;
+
     
 }
 
-
-
-aside{
-
-    display: inline-block;
-    max-width: 27%;
+.contenedor{
+    text-align: center;
 }
 
+}    
+h1 {
+    
