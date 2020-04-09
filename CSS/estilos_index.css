@@ -31,3 +31,19 @@ body{background-image: url(../IMG/lineas.jpg);}
     color: #ffffff;
 
 }
+.sociales{
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.redes{
+    height: 150px;
+    padding: 20px;
+
+    }
+
+.redes h2{
+   text-align: center;
+    
+   }
