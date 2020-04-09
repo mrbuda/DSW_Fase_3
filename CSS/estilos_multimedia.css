@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenido1
+{	left:25%;
+	width:50%;
+	height:50%;
+	position: absolute;
+}
+.titulocon
+{	font-size:1.5em;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.titulof
+{	font-size:1em;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+.desarrollo
+{
+font-size:1em;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+text-align: justify;
+	line-height: 1.3em;
+	
+}
+
+.multimedio
+{	
+	padding-top:20%;
+	margin-left:25%;
+	width:50%;
+	margin-right:25%;
+}
+
+.ova
+{	margin-top:3%;
+	width:60%;
+}
+
+.ova iframe
+{
+	width: 560px;
+	height: 315px;
+}
