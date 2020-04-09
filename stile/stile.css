@@ -1,6 +1,8 @@
 body{
     background-color: yellowgreen;
+    max-width: 80%;
     color: white
+    
 }
 
 nav, header, .articulos, footer, aside{
@@ -10,6 +12,7 @@ nav, header, .articulos, footer, aside{
 
 nav{
     background-color: brown;
+    text-align: center;
 }
 header{
     background-color: darkcyan;
@@ -22,5 +25,40 @@ footer {
     background-color: tomato;
 }
 aside {
-    background-color: yellow;
+    background-color:black;
+    max-width: 50%;
+    
+}
+/*menu*/
+.menu li{
+    display: inline-block;
+}
+
+li a ,.botonn{
+    display: inline-block;
+    color:greenyellow;
+    text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
+}
+.listadesplegable{
+    display: none;
+    background-color:white;
+    position: absolute;
+    
+        
+}
+.listadesplegable a{
+    color: green;
+    display: block;
+    text-align: left;
+    
+}
+.botonn:hover .listadesplegable{
+    display: block;
+    color: yellow;
+}
+     
+li a:hover{
+    background-color: red;
 }
