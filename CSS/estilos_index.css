@@ -1,5 +1,5 @@
 nav, .contenedor, .inicio, footer,aside, header {
-    max-width: 90%;
+    max-width: 60%;
     margin: auto;
 }
  
@@ -16,14 +16,14 @@ body{background-image: url(../IMG/lineas.jpg);}
 .centro{
     display: block;
     margin: auto;
+
     
 }
 
-
-
-aside{
-
-    display: inline-block;
-    max-width: 27%;
+.contenedor{
+    text-align: center;
 }
 
+}    
+h1 {
+    
