@@ -97,4 +97,11 @@ li a:hover{
     background-color:aqua;
 }
 
+.footer{
+    background-color: #005883;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    
 
+}
