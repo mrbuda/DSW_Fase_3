@@ -1,4 +1,4 @@
-nav, .contenedor, .inicio, footer,aside, header {
+nav, .contenedor, .inicio, footer,aside, header, .footer {
     max-width: 60%;
     margin: auto;
 }
@@ -24,6 +24,26 @@ body{background-image: url(../IMG/lineas.jpg);}
     text-align: center;
 }
 
-}    
-h1 {
+.footer{
+    background-color: #005883;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+
+}
+.sociales{
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.redes{
+    height: 150px;
+    padding: 20px;
+
+    }
+
+.redes h2{
+   text-align: center;
     
+   }
