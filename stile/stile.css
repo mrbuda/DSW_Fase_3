@@ -1,42 +1,31 @@
 body{
     max-width: 120%;
-    color: black
-    
+    color: black    
 }
-
-nav, header, .articulos, footer, aside{
+nav, header, .articulos, footer, aside, contenedor{
     max-width: 90%;
     margin: auto;
 }
-
-nav{
-   
-    text-align: center;
+nav{   
+    text-align: justify;
 }
-header img{  
- 
-
-}
-
 .centrado{
     margin: 10px auto;
     display: block;
+}   
+
+aside {    
+    max-width: 50%;    
+}
+ h1{
+    text-align: center;
 }
 
-.articulos{
-   
-}
-footer {
-   
-}
-aside {
-    
-    max-width: 50%;
-    
-}
 /*menu*/
 .menu li{
     display: inline-block;
+    text-decoration: blue;
+    
 }
 
 li a ,.botonn{
@@ -54,7 +43,7 @@ li a ,.botonn{
         
 }
 .listadesplegable a{
-    color: green;
+    color:blue;
     display: block;
     text-align: left;
     
@@ -68,6 +57,9 @@ li a:hover{
     background-color:aqua;
 }
 
+.menu{
+    text-align: center;
+}
 
 
 
