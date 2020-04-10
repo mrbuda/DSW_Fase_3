@@ -21,10 +21,19 @@ aside {
     text-align: center;
 }
 
+
+ 
+.cronologias h3{
+    text-align: center;
+}
 /*menu*/
+.menu{
+    text-align: center;
+}
 .menu li{
     display: inline-block;
     text-decoration: blue;
+    text-align: center;
     
 }
 
@@ -56,10 +65,36 @@ li a ,.botonn{
 li a:hover{
     background-color:aqua;
 }
+/*menu actividades*/
 
-.menu{
+
+.menuactividades{
+    display: inline-block;
+    color: blue;
     text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
 }
-
+.listadesplegable2{
+    display: none;
+    background-color:white;
+    position: absolute;
+    
+        
+}
+.listadesplegable2 a{
+    color:blue;
+    display: block;
+    text-align: left;
+    
+}
+.menuactividades:hover .listadesplegable2{
+    display: block;
+    color: yellow;
+}
+     
+li a:hover{
+    background-color:aqua;
+}
 
 
