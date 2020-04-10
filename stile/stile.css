@@ -1,7 +1,6 @@
 body{
-    background-color: yellowgreen;
-    max-width: 80%;
-    color: white
+    max-width: 120%;
+    color: black
     
 }
 
@@ -11,21 +10,27 @@ nav, header, .articulos, footer, aside{
 }
 
 nav{
-    background-color: brown;
+   
     text-align: center;
 }
-header{
-    background-color: darkcyan;
+header img{  
+ 
+
+}
+
+.centrado{
+    margin: 10px auto;
+    display: block;
 }
 
 .articulos{
-    background-color: green;
+   
 }
 footer {
-    background-color: tomato;
+   
 }
 aside {
-    background-color:black;
+    
     max-width: 50%;
     
 }
@@ -36,7 +41,7 @@ aside {
 
 li a ,.botonn{
     display: inline-block;
-    color:greenyellow;
+    color: blue;
     text-align: center;
     text-decoration:none;
     padding: 0.9em 1em;
@@ -60,5 +65,9 @@ li a ,.botonn{
 }
      
 li a:hover{
-    background-color: red;
+    background-color:aqua;
 }
+
+
+
+
