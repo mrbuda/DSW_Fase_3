@@ -1,0 +1,83 @@
+index
+
+<style>
+
+    #menu{
+        background-color: #F0B429;
+        border-radius: 10px;
+    }
+
+    #menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #menu ul li {
+        display: inline-block;
+
+    }
+    #menu ul li a{
+        color: white;
+        display: block;
+        padding: 15px 48px ;
+        text-decoration: none;
+    }
+    #menu ul li a:hover{
+        background-color:  #005883 ;
+        border-radius: 10px;
+    }
+</style>         
+
+
+<nav>
+    <div id="menu">
+        <ul class="menu2">   
+             <li><a href="index.html">INICIO</a></li>
+             <li class="boton"><a href="lecturas.html">LECTURAS</a></li>
+             <div class="listadesplegable">
+                <a href="#Historia">Historia</a>
+                <a href="#Cronologia">Cronologia</a>
+                <a href="#Primordiun">Primordiun</a>
+                <a href="#Silentium">Silentium</a>
+                <a href="#Cryptum">Cryptum</a>    
+             </div>
+             <li><a href="historiaytopvj.html">HISTORIA</a></li>
+             <li><a href="clasicosydatosvj.html">JUEGOS CLASICOS</a></li>
+             <li><a href="actividades.html">ACTIVIDADES</a></li>
+             <li><a href="autores.html">AUTORES</a></li>
+
+        </ul>
+    </div>
+
+</nav>
+
+
+/* menu desplegable */
+.menu2 li{
+    display: inline-block;
+
+}   
+
+li a, boton{
+    display: inline-block;
+    color: fuchsia;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listadesplegable{
+    display: none;
+    background-color:greenyellow;
+    position: absolute;
+
+}
+
+.listadesplegable a{
+    color: indigo;
+    display: block;
+    text-align: left;
+
+}
+.boton:hover .listadesplegable{
+    display: block;
+

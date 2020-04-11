@@ -46,3 +46,79 @@ text-align: justify;
 	height: 315px;
 }
 
+.menuactividades{
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
+}
+.listadesplegable2{
+    display: none;
+    background-color:white;
+    position: absolute;
+    
+        
+}
+.listadesplegable2 a{
+    color:blue;
+    display: block;
+    text-align: left;
+    
+}
+.menuactividades:hover .listadesplegable2{
+    display: block;
+    color: yellow;
+}
+     
+li a:hover{
+    background-color:aqua;
+}
+
+.footer{
+    background-color: #005883;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-decoration: blue;
+    text-align: center;
+    
+}
+
+li a ,.botonn{
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
+}
+.listadesplegable{
+    display: none;
+    background-color:#F0B429;
+    position: absolute;
+    border-radius: 10px
+        
+}
+.listadesplegable a{
+    color:blue;
+    display: block;
+    text-align: left;
+    
+}
+.botonn:hover .listadesplegable{
+    display: block;
+    color: yellow;
+}
+     
+li a:hover{
+    background-color:aqua;
+}

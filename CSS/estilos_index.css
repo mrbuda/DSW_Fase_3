@@ -49,34 +49,80 @@ padding-bottom: 40px;
     
    }
 
-/* menu desplegable */
-.menu2 li{
-    display: inline-block;
 
-}   
-
-li a, boton{
+   .menuactividades{
     display: inline-block;
-    color: fuchsia;
+    color: blue;
     text-align: center;
-    text-decoration: none;
+    text-decoration:none;
+    padding: 0.9em 1em;
 }
-
-.listadesplegable{
+.listadesplegable2{
     display: none;
-    background-color:greenyellow;
+    background-color:#F0B429;
     position: absolute;
-
+    
+        
 }
-
-.listadesplegable a{
-    color: indigo;
+.listadesplegable2 a{
+    color:blue;
     display: block;
     text-align: left;
+    
+}
+.menuactividades:hover .listadesplegable2{
+    display: block;
+    color: blue;
+}
+     
+li a:hover{
+    background-color:aqua;
+}
+
+.footer{
+    background-color: #005883;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    
 
 }
-.boton:hover .listadesplegable{
+
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-decoration: blue;
+    text-align: center;
+    
+}
+
+li a ,.botonn{
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
+}
+.listadesplegable{
+    display: none;
+    background-color:#F0B429;
+    position: absolute;
+    border-radius: 10px
+        
+}
+.listadesplegable a{
+    color:blue;
     display: block;
-
-
+    text-align: left;
+    
+}
+.botonn:hover .listadesplegable{
+    display: block;
+    color: yellow;
+}
+     
+li a:hover{
+    background-color:aqua;
 }
