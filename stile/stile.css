@@ -77,8 +77,9 @@ li a:hover{
 }
 .listadesplegable2{
     display: none;
-    background-color:white;
+    background-color:#F0B429;
     position: absolute;
+    border-radius: 10px
     
         
 }
