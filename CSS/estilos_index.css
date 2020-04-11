@@ -48,3 +48,35 @@ padding-bottom: 40px;
    text-align: center;
     
    }
+
+/* menu desplegable */
+.menu2 li{
+    display: inline-block;
+
+}   
+
+li a, boton{
+    display: inline-block;
+    color: fuchsia;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listadesplegable{
+    display: none;
+    background-color:greenyellow;
+    position: absolute;
+
+}
+
+.listadesplegable a{
+    color: indigo;
+    display: block;
+    text-align: left;
+
+}
+.boton:hover .listadesplegable{
+    display: block;
+
+
+}

@@ -3,7 +3,7 @@ body{
     color: black    
 }
 nav, header, .articulos, footer, aside, contenedor{
-    max-width: 90%;
+    max-width: 60%;
     margin: auto;
 }
 nav{   
@@ -46,9 +46,9 @@ li a ,.botonn{
 }
 .listadesplegable{
     display: none;
-    background-color:white;
+    background-color:#F0B429;
     position: absolute;
-    
+    border-radius: 10px
         
 }
 .listadesplegable a{
